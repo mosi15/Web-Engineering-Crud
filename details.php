@@ -1,15 +1,3 @@
-# CRUD-Operation ( details page submission with crud)
-## Output:
-![curd-Op](https://user-images.githubusercontent.com/67409313/161131924-823cd8e2-d13a-438a-98e8-42495d4c07f9.PNG)
-
-
-## Code: 
-
-#### details.php
-
-
-````
-
 <?php
 include "config.php";
 
@@ -57,5 +45,3 @@ while($row=mysqli_fetch_array($result)){
 	<a href="user_list.php" class="btn btn-info" role="button" style="float:right;">Home Page</a>
 </body>
 </html>
-
-````
